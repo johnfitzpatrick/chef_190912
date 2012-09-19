@@ -1,0 +1,24 @@
+1  git clone git://github.com/opscode/chef-repo.git /opt/development
+2  git clone git://github.com/opscode/chef-repo.git /opt/devel
+3  pwd
+4  cd /opt/
+5  ls -ltr
+6  cd devel
+7  ls -ltr
+8  git remote
+9  git remote rename origin opscode  
+10  git remote
+11  git remote add origin 
+12  git remote add origin git@github.com:johnfitzpatrick/chef_190912.git
+13  git remote
+14  git remote rm opscode
+15  git remote
+16  git push -u origin master
+17  hist
+18  history 
+19  cd ~
+20  pwd
+21  cd .ssh/
+22  ls -ltr
+23  cat CourseDevKey.pub
+24  history 
