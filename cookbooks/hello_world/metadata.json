@@ -1,0 +1,30 @@
+{
+  "maintainer_email": "john.fitzpatrick@rightscale.com",
+  "name": "hello_world",
+  "recipes": {
+    "hello_world::default": "prints hello world"
+  },
+  "groupings": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "version": "0.0.1",
+  "platforms": {
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "dependencies": {
+  },
+  "maintainer": "RightScale",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "description": "Installs/Configures hello_world",
+  "conflicting": {
+  },
+  "recommendations": {
+  }
+}
