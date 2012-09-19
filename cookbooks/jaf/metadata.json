@@ -1,0 +1,32 @@
+{
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "providing": {
+  },
+  "name": "jaf",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "version": "0.0.1",
+  "conflicting": {
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "recipes": {
+    "jaf::setup_jaf": "jafs recipe"
+  },
+  "maintainer": "JAF Company",
+  "recommendations": {
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "description": "Installs/Configures jaf",
+  "groupings": {
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n"
+}
