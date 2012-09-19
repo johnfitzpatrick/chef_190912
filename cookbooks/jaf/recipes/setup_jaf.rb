@@ -25,11 +25,11 @@ log "this is jaf's debug log:"
 
 package "tmux"
 
-if node[:platform] = 'centos'
-        log "This is a centos box"
-        elseif node[:platform] = 'ubuntu'
-        log "This is a ubuntu box"
-        end
+#if node[:platform] = 'centos'
+#        log "This is a centos box"
+#        elseif node[:platform] = 'ubuntu'
+#        log "This is a ubuntu box"
+#        end
 
 log "See the content of node[:platform] is #{node[:platform]}"
 
