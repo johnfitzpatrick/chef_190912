@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-log "Hello World!"
+log "Hello World! This is the second version of the recipe"
