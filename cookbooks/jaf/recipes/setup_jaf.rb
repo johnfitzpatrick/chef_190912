@@ -15,13 +15,13 @@ rightscale_marker :begin
 
 log " We would have installed #{package_name} if we provided that variabale to a package provider"
 log "this is jaf's info log:"
-::Chef::log.info("info")
+#::Chef::log.info("info")
 
 log "this is jaf's warn log:"
-::Chef::log.warn("warn")
+#::Chef::log.warn("warn")
 
 log "this is jaf's debug log:"
-::Chef::log.debug("debug")
+#::Chef::log.debug("debug")
 
 package "tmux"
 
