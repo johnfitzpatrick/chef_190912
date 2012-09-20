@@ -17,3 +17,5 @@ mode "0755"
 action :create
 end
 
+log "added a directory"
+
