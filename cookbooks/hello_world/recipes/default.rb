@@ -7,4 +7,13 @@
 # All rights reserved - Do Not Redistribute
 #
 
-log "Hello World! This is the second version of the recipe"
+log "Hello World! This is the third version of the recipe"
+
+log "20th Sept 2012"
+directory "/tmp/something" do
+owner "root"
+group "root"
+mode "0755"
+action :create
+end
+
