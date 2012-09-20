@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: hello_world
-# Recipe:: default1
+# Recipe:: default2
 #
 # Copyright 2012, JOHNS_COMPANY_NAME
 #
