@@ -17,5 +17,16 @@ mode "0755"
 action :create
 end
 
-log "added a directory"
+log "added first directory"
+ 
+
+
+ directory "/tmp/somethingelse" do
+ owner "root"
+ group "root"
+ mode "0755"
+ action :create
+ end
+
+ log "added a second directory"
 
