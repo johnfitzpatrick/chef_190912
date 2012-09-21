@@ -11,3 +11,9 @@ supports "ubuntu"
 
 recipe  "jaf::setup_jaf","jafs recipe"
 
+attribute "whatever",
+:display_name => "just some value",
+:description => "nothing to see here",
+:required => "required",
+:recipes => ["jaf::setup_jaf"]  
+

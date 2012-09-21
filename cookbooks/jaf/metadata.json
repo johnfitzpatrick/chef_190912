@@ -1,32 +1,45 @@
 {
-  "replacing": {
-  },
-  "attributes": {
-  },
-  "providing": {
-  },
-  "name": "jaf",
-  "platforms": {
-    "ubuntu": ">= 0.0.0"
-  },
-  "version": "0.0.1",
-  "conflicting": {
-  },
-  "dependencies": {
-    "rightscale": ">= 0.0.0"
-  },
-  "recipes": {
-    "jaf::setup_jaf": "jafs recipe"
-  },
-  "maintainer": "JAF Company",
   "recommendations": {
   },
   "maintainer_email": "YOUR_EMAIL",
-  "description": "Installs/Configures jaf",
-  "groupings": {
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "providing": {
+  },
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
   },
   "license": "All rights reserved",
+  "maintainer": "JAF Company",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
   "suggestions": {
   },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n"
+  "attributes": {
+    "whatever": {
+      "calculated": false,
+      "choice": [
+
+      ],
+      "display_name": "just some value",
+      "required": "required",
+      "recipes": [
+        "jaf::setup_jaf"
+      ],
+      "description": "nothing to see here",
+      "type": "string"
+    }
+  },
+  "conflicting": {
+  },
+  "groupings": {
+  },
+  "replacing": {
+  },
+  "version": "0.0.1",
+  "recipes": {
+    "jaf::setup_jaf": "jafs recipe"
+  },
+  "description": "Installs/Configures jaf",
+  "name": "jaf"
 }

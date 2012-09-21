@@ -31,6 +31,7 @@ package "tmux"
 #        log "This is a ubuntu box"
 #        end
 
+log "This is the vaue for whatever (#{node[:whatever]})"
 log "See the content of node[:platform] is #{node[:platform]}"
 
 rightscale_marker :end
