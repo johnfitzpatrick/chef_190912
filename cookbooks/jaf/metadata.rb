@@ -17,3 +17,9 @@ attribute "whatever",
 :required => "required",
 :recipes => ["jaf::setup_jaf"]  
 
+# (#{node[:jaf][:someval]})"
+
+attribute "jaf/someval",
+:description => "An input with a slash - a Grouped Input",
+:required => "required",
+:recipes => ["jaf::setup_jaf"]

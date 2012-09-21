@@ -34,4 +34,6 @@ package "tmux"
 log "This is the vaue for whatever (#{node[:whatever]})"
 log "See the content of node[:platform] is #{node[:platform]}"
 
+log "The new input with the forward slash is (#{node[:jaf][:someval]})"
+
 rightscale_marker :end
