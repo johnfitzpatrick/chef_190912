@@ -1,45 +1,57 @@
 {
+  "maintainer": "JAF Company",
+  "description": "Installs/Configures jaf",
+  "name": "jaf",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "recipes": {
+    "jaf::setup_jaf": "jafs recipe"
+  },
+  "conflicting": {
+  },
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "replacing": {
+  },
+  "attributes": {
+    "whatever": {
+      "type": "string",
+      "description": "nothing to see here",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "recipes": [
+        "jaf::setup_jaf"
+      ],
+      "required": "required",
+      "display_name": "just some value"
+    },
+    "jaf/someval": {
+      "type": "string",
+      "description": "An input with a slash - a Grouped Input",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "recipes": [
+        "jaf::setup_jaf"
+      ],
+      "required": "required"
+    }
+  },
+  "providing": {
+  },
   "recommendations": {
+  },
+  "suggestions": {
   },
   "maintainer_email": "YOUR_EMAIL",
   "dependencies": {
     "rightscale": ">= 0.0.0"
   },
-  "providing": {
-  },
-  "platforms": {
-    "ubuntu": ">= 0.0.0"
-  },
   "license": "All rights reserved",
-  "maintainer": "JAF Company",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "suggestions": {
-  },
-  "attributes": {
-    "whatever": {
-      "calculated": false,
-      "choice": [
-
-      ],
-      "display_name": "just some value",
-      "required": "required",
-      "recipes": [
-        "jaf::setup_jaf"
-      ],
-      "description": "nothing to see here",
-      "type": "string"
-    }
-  },
-  "conflicting": {
-  },
-  "groupings": {
-  },
-  "replacing": {
-  },
   "version": "0.0.1",
-  "recipes": {
-    "jaf::setup_jaf": "jafs recipe"
-  },
-  "description": "Installs/Configures jaf",
-  "name": "jaf"
+  "groupings": {
+  }
 }
